@@ -173,7 +173,7 @@ const HeroSection = () => {
     >
 
       <div className="hero-content">
-        <h1>THE NWOSUS</h1>
+        <h1>THE NWOSU'S</h1>
         <button className="hero-btn">
           <Link to="gallery" smooth={true} duration={500}>
             View Gallery <FontAwesomeIcon icon={faPhotoFilm} />
