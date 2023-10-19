@@ -173,7 +173,7 @@ const HeroSection = () => {
     >
 
       <div className="hero-content">
-        <h1>MRS CHINENYE</h1>
+        <h1>THE NWOSUS</h1>
         <button className="hero-btn">
           <Link to="gallery" smooth={true} duration={500}>
             View Gallery <FontAwesomeIcon icon={faPhotoFilm} />
@@ -333,7 +333,7 @@ const Lightbox = ({ images, currentIndex, onClose, onPrev, onNext }) => {
 // );
 function Backup() {
   return <Link to="gallery" smooth={true} duration={500} className="upButton">
-    Back to Gallery <FontAwesomeIcon icon={faArrowCircleUp} />
+    Back to Top <FontAwesomeIcon icon={faArrowCircleUp} />
   </Link>
 }
 function Footer() {
